@@ -39,7 +39,11 @@ document.getElementById('sendBtn').addEventListener('click', function() {
         } else if (messageText.toLowerCase().includes('kangen')) {
             replyText = 'mas juga kangen banget sama ayang... 🥺';
         } else if (messageText.toLowerCase().includes('loveyoumore')) {
-            replyText = 'makasih sayangku... 😚';
+            replyText = 'Impossible, aku yang lebih sayang!... 😚';
+        } else if (messageText.toLowerCase().includes('love you more')) {
+            replyText = 'Impossible, aku yang lebih sayang!... 😚';
+        } else if (messageText.toLowerCase().includes('i love you more')) {
+            replyText = 'Impossible, aku yang lebih sayang!... 😚';
         } else {
             replyText = 'Lanjut di whatsapp ori aja gasih sayaaangku ❤️';
         }
